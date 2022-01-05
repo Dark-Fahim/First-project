@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 *{
     margin: 0;
     padding: 0;
@@ -57,4 +58,138 @@ body{
     font-size: 16px;
     border-radius: 5px;
     margin: 15px 0;
+    cursor: pointer;
+}
+.scroll{
+    font-weight: 100;
+}
+.my-mission {
+    margin-top: 60px;
+    font-family: 'Poppins', sans-serif;
+}
+.my-mission .heading{
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 30px;
+}
+.my-mission h1 span{
+    color: orangered;
+}
+.mission,
+.vission,
+.goals{
+    width: 320px;
+    background-color: palegoldenrod;
+    height: 400px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    padding: 30px;
+}
+.mission-img,
+.vission-img,
+.goal-img{
+    width: 100%;
+    height: 40%;
+}
+.mission-img img,
+.vission-img img,
+.goal-img img{
+    height: 70%;
+    margin-top: 20% ;
+}
+.mission h1,
+.vission h1,
+.goals h1{
+    font-weight: 900;
+    margin: 5px 0;
+}
+.mission p,
+.vission p,
+.goals p{
+    line-height: 30px;
+}
+.vission{
+    background-color: aquamarine
+}
+.goals{
+    background-color: #92d3c3
+}
+.develop-img{
+    width: 40%;
+}
+.develop-details{
+    width: 55%;
+    margin-top: 50px;
+}
+.develop-img img{
+    width: 100%;
+}
+.develop-section{
+    margin: 100px;
+    font-family: 'Poppins', sans-serif;
+}
+.develop-details h1{
+    font-size: 32px;
+    color: #2c2c2c;
+    font-weight: 900;
+    margin: 0 40px;
+    padding-top: 10px;
+}
+.develop-details p{
+    color: #2c2c2c;
+    font-weight: 600;
+    margin: 25px 40px;
+    padding-top: 10px;
+    line-height: 32px;
+}
+
+.develop-details .read-btn{
+    padding: 15px 35px;
+    border: none;
+    background-color: #f02222;
+    color: #fff;
+    font-size: 16px;
+    border-radius: 5px;
+    margin: 10px 40px;
+    cursor: pointer;
+}
+.global-details{
+    width: 55%;
+    margin-top: 50px;
+}
+.global-section{
+    margin: 100px;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+.global-details h1{
+    font-size: 32px;
+    color: #2c2c2c;
+    font-weight: 900;
+    margin: 0px 40px;
+    padding-top: 10px;
+}
+.global-details p{
+    color: #2c2c2c;
+    font-weight: 600;
+    margin: 25px 40px;
+    padding-top: 10px;
+    line-height: 32px;
+}
+.global-img img{
+    width: 100%;
+}
+.global-img{
+    width: 40%;
+}
+.global-details .read-btn{
+    padding: 15px 35px;
+    border: none;
+    background-color: #f02222;
+    color: #fff;
+    font-size: 16px;
+    border-radius: 5px;
+    margin: 10px 40px;
+    cursor: pointer;
 }
